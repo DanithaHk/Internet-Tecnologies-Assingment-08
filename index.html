@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet Tecnologies Assingment-08</title>
+
+<style>
+    body {
+        margin: 0;
+        background: linear-gradient(to right,white,wheat);
+    }
+
+    header {
+        background-color: #44351f;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        height: 45px;
+    }
+
+    header ul {
+        list-style: none;
+        display: flex;
+        gap: 65px;
+        justify-self: flex-end;
+        margin-right: 25px;
+    }
+
+    header ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 26px;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .left {
+        /* background-color:white; */
+        width: 50vw;
+        height: 68vh;
+        padding: 70px;
+    }
+
+    .right {
+        /* background-color: rgb(241, 240, 236); */
+        width: 50vw;
+        height: 90vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+       
+    }
+
+    main {
+        display: flex;
+    }
+
+    .right img {
+        width: 20vw;
+        height: 40vh;
+        border-radius: 50%;
+        border: 3px solid #7a522d;
+        animation: imgPopUp 3s linear infinite;
+    }
+    @keyframes imgPopUp {
+        50%{
+            transform: scale(110%);
+        }
+        100%{
+            transform: scale(100%);
+        }
+    }
+    .logoimg {
+        width: 100px;
+        height: 80px;
+        border-radius: 20%;
+        margin-right: 10px;
+    }
+
+    .logo h2 {
+        font-size: 20px;
+        color: whitesmoke;
+    }
+
+    .left h1 {
+        font-size: 45px;
+        color: #7a522d;
+    }
+
+    .left h3 {
+        font-size: 30px;
+        margin: 0px;
+    }
+
+    .left p {
+        margin-top: 5px;
+        font-size: 22px;
+    }
+
+    .left div {
+        padding: 40px;
+        margin-left: 20px;
+    }
+</style>
+</head>
+
+<body>
+    <div>
+        <header>
+            <section class="logo">
+                <h2> 
+                    Internet Tecnologies Assingment-08
+                </h2>
+            </section>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="/pages/case1.html"><b>Case-1</b></a>
+                    </li>
+                    <li>
+                        <a href="/pages/case2.html"><b>Case-2</b></a>
+                    </li>
+                    <li>
+                        <a href="/pages/Case3.html"><b>Case-3</b></a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <main>
+        <section class="left">
+            <div>
+                <h1>Institute Of Software Enginnering</h1>
+                <h3>Internet Tecnologies Assingment-08..!</h3>
+                <p>Danitha Dinuwan from GDSE 70.</p>
+            </div>
+        </section>
+        <section class="right">
+            <img src="/images/me.jpg" alt="pro pic" />
+        </section>
+    </main>
+</body>
+</html>
+<!-- https://assingment-8-javascript.web.app -->
